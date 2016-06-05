@@ -83,7 +83,7 @@ NSString * const HarpyLanguageTurkish               = @"tr";
 
 #pragma mark - Public
 - (void)checkVersion
-{`
+{
     if (!_appID) {
        
         NSLog(@"[Harpy]: Please make sure that you have set _appID before calling checkVersion, checkVersionDaily, or checkVersionWeekly");
