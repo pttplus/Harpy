@@ -214,7 +214,6 @@ NSString * const HarpyLanguageTurkish               = @"tr";
     if ([[self currentVersion] compare:currentAppStoreVersion options:NSNumericSearch] == NSOrderedAscending) {
         [self localizeAlertStringsForCurrentAppStoreVersion:currentAppStoreVersion];
         [self alertTypeForVersion:currentAppStoreVersion];
-        [self showAlertIfCurrentAppStoreVersionNotSkipped:currentAppStoreVersion];
         if (self.checkVersionBlock) {
             self.checkVersionBlock(currentAppStoreVersion, _updateAvailableMessage, _theNewVersionMessage);
         }
