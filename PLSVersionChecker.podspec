@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name         = "PLSVersionChecker"
-  s.version      = "3.3.10"
+  s.version      = "0.1.0"
   s.summary      = "Notify users that a new version of your iOS app is available, and prompt them with the AppStore link."
   s.homepage     = "https://github.com/pttplus/PLSVersionChecker"
   s.platform     = :ios, '7.0'
